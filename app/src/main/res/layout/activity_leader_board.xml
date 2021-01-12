@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LeaderBoardActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <TextView
+            android:id="@+id/t11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="11"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="12"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="13"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="14"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="15"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="17"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="16"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="18"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="19"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t1010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="20"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="1"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="2"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="3"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="4"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="6"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="7"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="8"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="8"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="9"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="10"
+            android:textColor="#a7edff"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trophy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
