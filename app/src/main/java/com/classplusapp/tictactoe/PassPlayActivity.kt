@@ -270,7 +270,9 @@ class PassPlayActivity : AppCompatActivity() {
         if(sp.contains("$b"))
             p2Count += sp.getString("$b", "")!!.toInt()
 
+        if(a!="")
         editor.putString("$a", p1Count.toString())
+        if(b!="")
         editor.putString("$b", p2Count.toString())
         editor.commit()
         finish()
