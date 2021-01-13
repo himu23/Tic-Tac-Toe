@@ -17,7 +17,6 @@ class LeaderBoardActivity : AppCompatActivity() {
 
         // SharedPreferences to fetch leaderboard
         var sp: SharedPreferences = applicationContext.getSharedPreferences("LeaderLog", Context.MODE_PRIVATE)
-        Log.i("ffffffffffffffff","${sp.all}")
 
         var iv1 = mutableListOf<TextView>(t11,t22,t33,t44,t55,t66,t77,t88,t99,t1010)
         var iv2 = arrayListOf<TextView>(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10)
@@ -25,10 +24,13 @@ class LeaderBoardActivity : AppCompatActivity() {
         var v = ArrayList(sp.all.values);
 
 
+
         var x = k.size-1
+
+        /*Desc sort key value pairs obtained from SharedPreferences on value*/
         for(i in 0 until k.size){
-            for(j in 1 until x){
-                if(v[j-1].toString().toInt()>v[j].toString().toInt()) {
+            for(j in 0 until k.size-i-1){
+                if(v[j].toString().toInt() < v[j+1].toString().toInt()) {
 
                     var temp1 = v[j]
                     var temp2 = k[j]
@@ -45,7 +47,7 @@ class LeaderBoardActivity : AppCompatActivity() {
 
        for(i in iv1){
             if(count<k.size)
-                i.text = k[count++]
+                i.text = "#${count+1} ${k[count++]}"
            else
                break;
        }
